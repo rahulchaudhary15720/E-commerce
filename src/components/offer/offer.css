@@ -1,0 +1,43 @@
+.offers{
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, var(--theme-secondry), #e1ffea22 60%);
+    margin-top: 100px;
+} 
+
+.offers-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   
+}
+
+.offers-left h1{
+    color: #171717;
+    font-size:50px;
+    font-weight: 600;
+}
+.offers-left p{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.offers-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.offers-right img{
+    width: 100%;
+}

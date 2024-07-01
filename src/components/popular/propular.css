@@ -1,0 +1,42 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+
+.popular h1{
+color: #171717;
+font-size: 50px;
+font-weight: 600;
+position: relative;
+}
+
+.popular h1::after{
+    position: absolute;
+    content:"";
+    width: 10%;
+    height: 3px;
+    background: var(--theme-text);
+    margin: auto;
+    top: 50%;
+    right:-60px
+}
+.popular h1::before{
+    position: absolute;
+    content:"";
+    width: 10%;
+    height: 3px;
+    background: var(--theme-text);
+    margin: auto;
+    top: 50%;
+    left: -60px;
+}
+
+.popular-item{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+
